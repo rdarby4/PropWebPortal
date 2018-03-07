@@ -1,0 +1,115 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SPIN.PropTrading.Common_VB
+</name>
+</assembly>
+<members>
+<member name="T:SPIN.PropTrading.Common_VB.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SPIN.PropTrading.Common_VB.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SPIN.PropTrading.Common_VB.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:SPIN.PropTrading.Common_VB.EC2Manager">
+ <summary>
+ EC2Manager. Used to create and destroy Amazon virtual machines
+ </summary>
+ <remarks>
+ Overview and docs : https://aws.amazon.com/documentation/ec2/
+ Details of AWS SDK : https://docs.aws.amazon.com/AWSSdkDocsNET/latest/V2/DeveloperGuide/how-to-ec2.html
+ Details of Instance names/pricing etc : https://aws.amazon.com/ec2/pricing/
+ Keypair value (in .pem) can be decrypted using : --Talk to Tony Burton--
+ </remarks>
+ 
+</member>
+<member name="T:SPIN.PropTrading.Common_VB.BetfairBetRequest">
+ <summary>
+ Betfair bet request class
+ </summary>
+ <remarks>https://api.developer.betfair.com/services/webapps/docs/display/1smk3cen4v3lu3yomq5qye0ni/placeOrders</remarks>
+</member>
+<member name="T:SPIN.PropTrading.Common_VB.BetfairBetResponse">
+ <summary>
+ Betfair bet response class
+ </summary>
+ <remarks>https://api.developer.betfair.com/services/webapps/docs/display/1smk3cen4v3lu3yomq5qye0ni/Betting+Type+Definitions#BettingTypeDefinitions-PlaceExecutionReport</remarks>
+</member>
+<member name="T:SPIN.PropTrading.Common_VB.BetfairCancelRequest">
+ <summary>
+ Betfair cancel bet request class
+ </summary>
+ <remarks>https://api.developer.betfair.com/services/webapps/docs/display/1smk3cen4v3lu3yomq5qye0ni/cancelOrders</remarks>
+</member>
+<member name="T:SPIN.PropTrading.Common_VB.BetfairCancelResponse">
+ <summary>
+ Betfair cancel bet response
+ </summary>
+ <remarks>https://api.developer.betfair.com/services/webapps/docs/display/1smk3cen4v3lu3yomq5qye0ni/Betting+Type+Definitions#BettingTypeDefinitions-CancelExecutionReport</remarks>
+</member>
+<member name="T:SPIN.PropTrading.Common_VB.BetfairPriceFilter">
+ <summary>
+ Betfair price request for specific market(s)
+ </summary>
+ <remarks>https://api.developer.betfair.com/services/webapps/docs/display/1smk3cen4v3lu3yomq5qye0ni/listMarketBook</remarks>
+</member>
+<member name="T:SPIN.PropTrading.Common_VB.BetfairOpenBetRequest">
+ <summary>
+ Betfair get open bets request
+ </summary>
+ <remarks>https://api.developer.betfair.com/services/webapps/docs/display/1smk3cen4v3lu3yomq5qye0ni/listCurrentOrders</remarks>
+</member>
+<member name="T:SPIN.PropTrading.Common_VB.BetfairSettledBetRequest">
+ <summary>
+ Betfair get settled bets request
+ </summary>
+ <remarks>https://api.developer.betfair.com/services/webapps/docs/display/1smk3cen4v3lu3yomq5qye0ni/listClearedOrders</remarks>
+</member>
+<member name="T:SPIN.PropTrading.Common_VB.CustomJsonSerializer">
+<summary>
+ Default JSON serializer for request bodies
+ Doesn't currently use the SerializeAs attribute, defers to Newtonsoft's attributes
+</summary>
+</member>
+<member name="M:SPIN.PropTrading.Common_VB.CustomJsonSerializer.#ctor">
+<summary>
+Default serializer
+</summary>
+</member>
+<member name="M:SPIN.PropTrading.Common_VB.CustomJsonSerializer.#ctor(Newtonsoft.Json.JsonSerializer)">
+<summary>
+Default serializer with overload for allowing custom Json.NET settings
+</summary>
+</member>
+<member name="M:SPIN.PropTrading.Common_VB.CustomJsonSerializer.Serialize(System.Object)">
+<summary>
+Serialize the object as JSON
+</summary>
+<param name="obj" />Object to serialize
+<returns>JSON as String</returns>
+</member>
+<member name="M:SPIN.PropTrading.Common_VB.GuidTranslator.#ctor">
+ <summary>
+ Class to translate INVARIANT GUIDs (source, sport etc)
+ </summary>
+ <remarks></remarks>
+ 
+</member>
+<member name="M:SPIN.PropTrading.Common_VB.MatchBookRabbitConsumer.GetPriceAndAmount(SPIN.PropTrading.Common_VB.MatchBookPrice2@,System.Double@,System.Double@)">
+
+NO Threshold calc in rabbit feed
+ 
+</member>
+</members>
+</doc>

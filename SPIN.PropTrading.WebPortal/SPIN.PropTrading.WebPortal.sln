@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SPIN.PropTrading.WebPortal", "SPIN.PropTrading.WebPortal\SPIN.PropTrading.WebPortal.vbproj", "{018E9497-0AC9-4386-A891-D8E4CF157041}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D8BBA322-9C5D-4F34-8AB1-7438E2939DA1}"
+	ProjectSection(SolutionItems) = preProject
+		..\.nuget\NuGet.Config = ..\.nuget\NuGet.Config
+		..\.nuget\NuGet.exe = ..\.nuget\NuGet.exe
+		..\.nuget\NuGet.targets = ..\.nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SPIN.PropTrading.Common_VB", "..\..\..\__GitHub\SS.CapitalManagement.Common\SPIN.PropTrading.Common_VB\SPIN.PropTrading.Common_VB.vbproj", "{448D0BA2-7739-45A5-9C58-F09EBDC79955}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{DA6A1B19-2E3F-4A64-B8C1-5EF71CED20E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{018E9497-0AC9-4386-A891-D8E4CF157041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{018E9497-0AC9-4386-A891-D8E4CF157041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{018E9497-0AC9-4386-A891-D8E4CF157041}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{018E9497-0AC9-4386-A891-D8E4CF157041}.Debug|x64.Build.0 = Debug|Any CPU
+		{018E9497-0AC9-4386-A891-D8E4CF157041}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{018E9497-0AC9-4386-A891-D8E4CF157041}.Debug|x86.Build.0 = Debug|Any CPU
+		{018E9497-0AC9-4386-A891-D8E4CF157041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{018E9497-0AC9-4386-A891-D8E4CF157041}.Release|Any CPU.Build.0 = Release|Any CPU
+		{018E9497-0AC9-4386-A891-D8E4CF157041}.Release|x64.ActiveCfg = Release|Any CPU
+		{018E9497-0AC9-4386-A891-D8E4CF157041}.Release|x64.Build.0 = Release|Any CPU
+		{018E9497-0AC9-4386-A891-D8E4CF157041}.Release|x86.ActiveCfg = Release|Any CPU
+		{018E9497-0AC9-4386-A891-D8E4CF157041}.Release|x86.Build.0 = Release|Any CPU
+		{448D0BA2-7739-45A5-9C58-F09EBDC79955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{448D0BA2-7739-45A5-9C58-F09EBDC79955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{448D0BA2-7739-45A5-9C58-F09EBDC79955}.Debug|x64.ActiveCfg = Debug|x64
+		{448D0BA2-7739-45A5-9C58-F09EBDC79955}.Debug|x64.Build.0 = Debug|x64
+		{448D0BA2-7739-45A5-9C58-F09EBDC79955}.Debug|x86.ActiveCfg = Debug|x86
+		{448D0BA2-7739-45A5-9C58-F09EBDC79955}.Debug|x86.Build.0 = Debug|x86
+		{448D0BA2-7739-45A5-9C58-F09EBDC79955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{448D0BA2-7739-45A5-9C58-F09EBDC79955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{448D0BA2-7739-45A5-9C58-F09EBDC79955}.Release|x64.ActiveCfg = Release|x64
+		{448D0BA2-7739-45A5-9C58-F09EBDC79955}.Release|x64.Build.0 = Release|x64
+		{448D0BA2-7739-45A5-9C58-F09EBDC79955}.Release|x86.ActiveCfg = Release|x86
+		{448D0BA2-7739-45A5-9C58-F09EBDC79955}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{448D0BA2-7739-45A5-9C58-F09EBDC79955} = {DA6A1B19-2E3F-4A64-B8C1-5EF71CED20E8}
+	EndGlobalSection
+EndGlobal
